@@ -12,15 +12,23 @@ function demo(){
     // console.log(10 *    5)
 
     // Variable declaration
-    let c, d, e;
+    // let c, d, e;
 
     // Assign value to the variable
-    c = 5; 
+    // c = 5; 
 
     // Computer value of variables
-    d = c;
-    e = c / d;
-    d=d+2
-    console.log(d,e,c)
+    // d = c;
+    // e = c / d;
+    // d=d+2
+    // console.log(d,e,c)
+    let Student = {
+        firstName: "Johnny",
+        lastName: "Diaz", 
+        age: 35, 
+        mark: "blueEYE"
+    }
+    console.log(Student)
+    console.log(type(Student))
 }
 demo()
