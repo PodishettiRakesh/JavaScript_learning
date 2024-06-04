@@ -175,15 +175,32 @@ function print_N_numbers(n){
 }
 // print_N_numbers(10)
 
+// Write a program that prints numbers from 1 to 10 using a while loop.
+function printNumbers(n){
+    let i=1;
+    while(i < n+1){
+        console.log(i)
+        i++
+    }
+}
+// printNumbers(10)
+
+// Write a program that prints the elements of an array using a for loop.
+function print_Array(arr){
+    for(i=0; i<arr.length;i++){
+        console.log(arr[i])
+    }
+}
+arr=["apple","banana","cat","dog"]
+// print_Array(arr)
+
+
+// Write a program that calculates the sum of all numbers from 1 to 100 using a for loop.
+
+
 
 /* 
-Loops
 
-Write a program that prints numbers from 1 to 10 using a while loop.
-
-Write a program that prints the elements of an array using a for loop.
-
-Write a program that calculates the sum of all numbers from 1 to 100 using a for loop.
 
 Write a program that takes an array of numbers and prints only the even numbers using a loop.
 
