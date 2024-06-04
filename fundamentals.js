@@ -4,12 +4,12 @@ let myName="Podishetti Rakesh";
 console.log(myName)
 
 // Declare and initialize variables of different data types: string, number, boolean, null, and undefined. Print each one to the console.
-let x=4;
-let y="java"
-let f=4.5;
-let z;
-let b=true;
-let a = null;
+// let x=4;
+// let y="java"
+// let f=4.5;
+// let z;
+// let b=true;
+// let a = null;
 // console.log(x)
 // console.log(y)
 // console.log(f)
@@ -34,18 +34,36 @@ let car= {
 // console.log(car.make)
 
 
+// DATA CONVERSIONS
+// Convert a number to a string and print the result.
+// let x=7;
+// let y=String(x)
+// console.log(String(x))
+// console.log(typeof(x))
+// console.log(typeof(y))
+
+
+// Convert a string to a number and print the result.
+// let str="123";
+// let n=Number(str);
+// console.log(n)
+// console.log(typeof n)
+
+// Convert a boolean to a string and print the result.
+// let bol=true;
+// let s=String(bol);
+// console.log(s)
+// console.log(typeof s)
+
+// Convert a string to a boolean and print the result.
+let str="False";
+let bool=Boolean(str);
+console.log(typeof bool)
+
 
 
 
 /* 
-Data Conversions
-Convert a number to a string and print the result.
-
-Convert a string to a number and print the result.
-
-Convert a boolean to a string and print the result.
-
-Convert a string to a boolean and print the result.
 
 Operators
 Write a program that takes two numbers and prints their sum, difference, product, and quotient.
