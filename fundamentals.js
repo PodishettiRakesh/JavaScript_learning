@@ -102,7 +102,7 @@ function swap(x,y){
     y=temp;
     console.log(x,y)
 }
-swap(10,12)
+// swap(10,12)
 
 
 
@@ -150,13 +150,23 @@ function groupPerson(person,age){
 // groupPerson("ramu",26)
 // groupPerson("ramudu",35)
 
+// Write a program that takes three numbers and prints the largest one.
+function maxOf_Three(x,y,z){
+    let max_num=0;
+    if(x>max_num){
+        max_num=x
+
+    }if(y>max_num){
+        max_num=y
+    }if(z>max_num){
+        max_num=z
+    }
+    console.log(max_num);
+}
+// maxOf_Three(12,10,19)
 
 
 /* 
-
-Write a program that takes an age and prints whether the person is a child, teenager, adult, or senior.
-
-Write a program that takes three numbers and prints the largest one.
 
 Loops
 Write a program that prints numbers from 1 to 10 using a for loop.
