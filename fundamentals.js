@@ -165,10 +165,19 @@ function maxOf_Three(x,y,z){
 // maxOf_Three(12,10,19)
 
 
-/* 
 
+// LOOPS
+// Write a program that prints numbers from 1 to 10 using a for loop.
+function print_N_numbers(n){
+    for(i=1;i<n+1;i++){
+        console.log(i)
+    }
+}
+// print_N_numbers(10)
+
+
+/* 
 Loops
-Write a program that prints numbers from 1 to 10 using a for loop.
 
 Write a program that prints numbers from 1 to 10 using a while loop.
 
