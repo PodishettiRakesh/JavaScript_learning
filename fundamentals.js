@@ -104,11 +104,41 @@ function swap(x,y){
 }
 swap(10,12)
 
-/* 
-Conditionals
-Write a program that checks if a number is positive, negative, or zero and prints the result.
 
-Write a program that takes a day of the week (e.g., "Monday") and prints whether it is a weekday or weekend.
+
+// CONDITIONALS
+// Write a program that checks if a number is positive, negative, or zero and prints the result.
+function checkNum(num){
+    if (num==0){
+        console.log("it is even number");
+    }else if(num%2==0){
+        console.log(num + "it is even number");
+    }else{
+        console.log(num+"it is odd number");
+    }
+}
+// checkNum(8)
+// checkNum(0)
+// checkNum(9)
+
+// Write a program that takes a day of the week (e.g., "Monday") and prints whether it is a weekday or weekend.
+function day_week(day){
+    weekdays=["monday","tuesdat","wednesday","thursday","friday"]
+    weekends=["sunday","saturday"]
+    if(day in weekdays){
+        console.log(day +" is weekday")
+    }else{
+        console.log(day+ " is weekend")
+    }
+}
+// day_week("sunday")
+// day_week("monday")
+
+// Write a program that takes an age and prints whether the person is a child, teenager, adult, or senior.
+
+
+
+/* 
 
 Write a program that takes an age and prints whether the person is a child, teenager, adult, or senior.
 
