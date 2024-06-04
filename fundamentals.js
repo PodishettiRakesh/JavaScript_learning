@@ -105,7 +105,6 @@ function swap(x,y){
 // swap(10,12)
 
 
-
 // CONDITIONALS
 // Write a program that checks if a number is positive, negative, or zero and prints the result.
 function checkNum(num){
