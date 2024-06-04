@@ -216,17 +216,51 @@ function print_even(arr){
 // print_even([1,2,3,4,5,6,7,8,9])
 
 
-/* 
+// BONUS CHALLENGES
+// Write a program that reverses a string.
+function reverse_str(str){
+    let x=str.split('')
+    let reversed=x.reverse().join('');
+    console.log(reversed)
+}
+// reverse_str("apple")
 
-Bonus Challenges
-Write a program that reverses a string.
+// Write a program that finds the factorial of a number.
+function factorial_of_number(n){
+    facto=1;
+    while(n>1){
+        facto=facto*n
+        n--
+    }
+    console.log(facto)
+}
+// factorial_of_number(4)
 
-Write a program that finds the factorial of a number.
+//Write a program that finds the largest number in an array.
+function max_of_array(arr){
+    let maxi=Math.max(...arr);
+    console.log(maxi)
 
-Write a program that finds the largest number in an array.
+}
+// max_of_array([1,2,3,4])
 
-Write a program that prints the Fibonacci sequence up to a certain number.
-
-Feel free to ask for help or hints if you get stuck on any of these problems!
-
-*/
+//Write a program that prints the Fibonacci sequence up to a certain number.
+function Fibonacci_series(n){
+    let first=0;
+    let second=1;
+    if(n==1){
+        console.log(first);
+    }else if(n==2){
+        console.log(first,second);
+    }else{
+        console.log(first);
+        console.log(second);
+        for(i=3;i<=n;i++){
+            let next=first+second;
+            console.log(next)
+            first=second;
+            second=next;
+        }
+    }
+}
+// Fibonacci_series(6)
