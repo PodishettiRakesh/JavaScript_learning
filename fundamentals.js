@@ -135,6 +135,20 @@ function day_week(day){
 // day_week("monday")
 
 // Write a program that takes an age and prints whether the person is a child, teenager, adult, or senior.
+function groupPerson(person,age){
+    if(age<15){
+        console.log(person+" is a child");
+    }else if(15<age & age<=21){
+        console.log(person+" is a teenager");
+    }else if(21<age & age<=30){
+        console.log(person+" is a adult");
+    }else{
+        console.log(person + " is a senior");
+    }
+}
+// groupPerson("rakesh",12)
+// groupPerson("ramu",26)
+// groupPerson("ramudu",35)
 
 
 
