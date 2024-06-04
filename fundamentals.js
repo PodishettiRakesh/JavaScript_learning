@@ -168,12 +168,12 @@ function maxOf_Three(x,y,z){
 
 // LOOPS
 // Write a program that prints numbers from 1 to 10 using a for loop.
-function print_N_numbers(n){
+function print_nums(n){
     for(i=1;i<n+1;i++){
         console.log(i)
     }
 }
-// print_N_numbers(10)
+// print_nums(10)
 
 // Write a program that prints numbers from 1 to 10 using a while loop.
 function printNumbers(n){
@@ -191,18 +191,32 @@ function print_Array(arr){
         console.log(arr[i])
     }
 }
-arr=["apple","banana","cat","dog"]
+// arr=["apple","banana","cat","dog"]
 // print_Array(arr)
 
-
 // Write a program that calculates the sum of all numbers from 1 to 100 using a for loop.
+function calcualte_sum(n1,n2){
+    sum=0;
+    for(i=n1;i<=n2;i++){
+        sum+=i
+        console.log(i)
+    }
+    console.log(sum)
+}
+// calcualte_sum(1,100)
 
+// Write a program that takes an array of numbers and prints only the even numbers using a loop.
+function print_even(arr){
+    for(i=0;i<arr.length;i++){
+        if(i%2==0){
+            console.log(i)
+        }
+    }
+}
+// print_even([1,2,3,4,5,6,7,8,9])
 
 
 /* 
-
-
-Write a program that takes an array of numbers and prints only the even numbers using a loop.
 
 Bonus Challenges
 Write a program that reverses a string.
