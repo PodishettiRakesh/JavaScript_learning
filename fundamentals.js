@@ -56,24 +56,55 @@ let car= {
 // console.log(typeof s)
 
 // Convert a string to a boolean and print the result.
-let str="False";
-let bool=Boolean(str);
-console.log(typeof bool)
+// let str="False";
+// let bool=Boolean(str);
+// console.log(typeof bool)
 
 
+// OPERATORS
+// Write a program that takes two numbers and prints their sum, difference, product, and quotient.
+function math_opearations(n1,n2){
+    console.log("addition: ",n1+n2)
+    console.log("diff: ",n1-n2)
+    console.log("product: ",n1*n2)
+    if (n2!=0){
+        console.log("quitient: ",n1/n2)
+    }else{
+        console.log("cannot divide by zero")
+    }
+    
+}
+// math_opearations(9,0)
 
+// Write a program that checks if a number is even or odd and prints the result.
+function check_evenorodd(num){
+    if(num%2==0){
+        console.log("even number");
+    }else{
+        console.log("odd number");
+    }
+}
+// check_evenorodd(7)
+// check_evenorodd(8)
+
+
+// Write a program that takes a number and increments it by 1, then prints the result.
+function incre(num){
+    num++;
+    console.log(num);
+}
+// incre(6)
+
+// Write a program that takes two variables and swaps their values.
+function swap(x,y){
+    let temp =x;
+    x=y;
+    y=temp;
+    console.log(x,y)
+}
+swap(10,12)
 
 /* 
-
-Operators
-Write a program that takes two numbers and prints their sum, difference, product, and quotient.
-
-Write a program that checks if a number is even or odd and prints the result.
-
-Write a program that takes a number and increments it by 1, then prints the result.
-
-Write a program that takes two variables and swaps their values.
-
 Conditionals
 Write a program that checks if a number is positive, negative, or zero and prints the result.
 
