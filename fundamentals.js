@@ -1,3 +1,5 @@
+
+
 // Variables and Data Types
 // Create a variable to store your name and print it to the console.
 let myName="Podishetti Rakesh";
@@ -248,19 +250,27 @@ function max_of_array(arr){
 function Fibonacci_series(n){
     let first=0;
     let second=1;
-    if(n==1){
+    if(n==0){
         console.log(first);
-    }else if(n==2){
-        console.log(first,second);
+    }else if(n==1){
+        console.log(first,second)
     }else{
+        
         console.log(first);
         console.log(second);
         for(i=3;i<=n;i++){
             let next=first+second;
-            console.log(next)
+            console.log(next);
             first=second;
             second=next;
+            
         }
     }
 }
 // Fibonacci_series(6)
+
+// const person={"name":"rakesh","age":23};
+// person.num=79955;
+// console.log(person)
+// console.log(person.name)
+// console.log(person["name"])
