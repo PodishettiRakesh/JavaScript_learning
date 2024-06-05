@@ -1,3 +1,5 @@
+
+
 // Variables and Data Types
 // Create a variable to store your name and print it to the console.
 let myName="Podishetti Rakesh";
@@ -265,4 +267,10 @@ function Fibonacci_series(n){
         }
     }
 }
-Fibonacci_series(6)
+// Fibonacci_series(6)
+
+// const person={"name":"rakesh","age":23};
+// person.num=79955;
+// console.log(person)
+// console.log(person.name)
+// console.log(person["name"])
