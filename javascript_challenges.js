@@ -66,6 +66,35 @@ let merged={
 };
 // console.log(merged)
 
+
+// Adding and Modifying Properties:
+let student={};
+student.name="rakesh";
+student.age=23;
+student.roll=2023;
+console.log(student);
+student.age=45;
+student.roll=203;
+console.log(student)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 More Data Conversions
