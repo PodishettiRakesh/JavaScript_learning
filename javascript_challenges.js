@@ -46,11 +46,28 @@ let book={
 };
 // book.descript();
 
+// Merge two objects into a new object.
+let book1 = {
+    title: "Pavan Kalyan",
+    author: "Rakesh",
+    year: 2024,
+    genre: "History",
+    cast: ["jagan","kaPaul"]
+};
+let book2={
+    title:"chandrababuNaidu",
+    year: 2023,
+    genre: "politics",
+}
 
+let merged={
+    ...book1,
+    ...book2
+};
+// console.log(merged)
 
 /*
-Create an object to store information about a book (title, author, year, genre). Add a method to print a description of the book.
-Merge two objects into a new object.
+
 More Data Conversions
 Conversions:
 Convert a date object to a string and print the result.
