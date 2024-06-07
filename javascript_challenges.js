@@ -72,20 +72,34 @@ let student={};
 student.name="rakesh";
 student.age=23;
 student.roll=2023;
-console.log(student);
+// console.log(student);
 student.age=45;
 student.roll=203;
-console.log(student)
+// console.log(student)
+// Create an object and delete one property
+delete student.age;
+// console.log(student)
 
 
+function getKeys(student){
+    console.log(Object.keys(student));
+    console.log(Object.values(student));
+    console.log(Object.entries(student));
+};
+// getKeys(student)
 
-
-
-
-
-
-
-
+// Use Object.assign() to merge two objects into a new object
+const student1 = {
+    name: "Grace",
+    age: 28
+};
+const student2 = {
+    name:"ramudu",
+    grade: "A",
+    school: "XYZ"
+};
+const newStudent = Object.assign({}, student1, student2);
+// console.log(newStudent); 
 
 
 
