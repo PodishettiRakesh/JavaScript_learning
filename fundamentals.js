@@ -267,7 +267,7 @@ function Fibonacci_series(n){
         }
     }
 }
-// Fibonacci_series(6)
+Fibonacci_series(6)
 
 // const person={"name":"rakesh","age":23};
 // person.num=79955;

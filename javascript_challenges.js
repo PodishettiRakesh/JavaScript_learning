@@ -1,12 +1,36 @@
 // Advanced Variables and Data Types
 // MANUPULATE ARRAYS:
+
 // Add an element to the beginning of an array.
-let arr=["raki","rakesh","rakhi"]
-console.log(arr)
+// let arr=["raki","rakesh","rakhi","keerthi"]
+// let arr2=["hemanth","kavya"]
+// arr.unshift("ramu")
+// console.log(arr.concat(arr2));
+// arr.forEach(function(item){
+//     console.log(item+item)
+// });
+
+// let num=[1,2,3,4]
+// let dou=num.map(function(number){
+//     return number*2;
+// });
+// console.log(dou)
+// let evens=num.reduce(function(total,num){
+//     return total+num;
+// });
+// console.log(num)
+// console.log(evens);
+
+
+
 // Remove the last element from an array.
-// Find the index of a specific element in an array.
+// let numbers=[3,4,5,5,6,7]
+// console.log(numbers.pop())
+// console.log(numbers)
 
 
+// Find the index of a specific element in an array
+// console.log(numbers.indexOf(7))
 
 /*
 Work with Objects:
