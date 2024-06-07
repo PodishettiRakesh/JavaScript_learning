@@ -32,9 +32,23 @@
 // Find the index of a specific element in an array
 // console.log(numbers.indexOf(7))
 
-/*
-Work with Objects:
 
+// WORK WITH OBJECTS
+// Create an object to store information about a book (title, author, year, genre). Add a method to print a description of the book.
+let book={
+    title:"pavanKalyan",
+    author:"rakesh",
+    year: 2024,
+    genre: "history",
+    descript: function(){
+        console.log(`${this.title} written by ${this.author}`)
+    }
+};
+// book.descript();
+
+
+
+/*
 Create an object to store information about a book (title, author, year, genre). Add a method to print a description of the book.
 Merge two objects into a new object.
 More Data Conversions
