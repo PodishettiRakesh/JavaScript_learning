@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -13,6 +14,8 @@ class BlackJava{
     private List<String> dealerHand;
 
     public BlackJava(){
+        initializeCards();
+        shuffleDeck();
 
     }
 
@@ -24,4 +27,17 @@ class BlackJava{
             }
         }
     }
+
+    private void shuffleDeck(){
+        Collections.shuffle(deck);
+    }
+
+    private void dealInitialCards(){
+        playerHand.add(drawCard());
+    }
+
+    private String drawCard(){
+        return deck.remove(deck.size()-1);
+    }
+
 }
