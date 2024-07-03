@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
+
+
 class BlackJava{
     private static final char[] SUITS = {'H','D','C','S'};
     private static final String[] RANKS = {"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
@@ -10,5 +12,16 @@ class BlackJava{
     private List<String> playerHand;
     private List<String> dealerHand;
 
+    public BlackJava(){
 
+    }
+
+    private void initializeCards(){
+        deck = new ArrayList<String>();
+        for(char suit : SUITS){
+            for(String rank:RANKS){
+                deck.add(suit+""+rank);
+            }
+        }
+    }
 }
