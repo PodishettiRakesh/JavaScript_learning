@@ -34,6 +34,9 @@ class BlackJava{
 
     private void dealInitialCards(){
         playerHand.add(drawCard());
+        playerHand.add(drawCard());
+        dealerHand.add(drawCard());
+        dealerHand.add(drawCard());
     }
 
     private String drawCard(){
