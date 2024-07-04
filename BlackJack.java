@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-class BlackJava{
+class BlackJack{
     private static final char[] SUITS = {'H','D','C','S'};
     private static final String[] RANKS = {"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
     private static final int MAX_POINTS =21;
@@ -13,7 +13,7 @@ class BlackJava{
     private List<String> playerHand;
     private List<String> dealerHand;
 
-    public BlackJava(){
+    public BlackJack(){
         initializeCards();
         shuffleDeck();
 
@@ -41,6 +41,12 @@ class BlackJava{
 
     private String drawCard(){
         return deck.remove(deck.size()-1);
+    }
+
+    public static void main(String[] args) {
+        BlackJack game = new BlackJack();
+        game.initializeCards();
+        System.out.println(game.deck);
     }
 
 }
