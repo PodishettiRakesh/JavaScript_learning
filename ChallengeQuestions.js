@@ -49,16 +49,23 @@ function createCounter(){
         return counter;
     }
 }
-
-let constant1=createCounter();
-console.log(constant1());
-console.log(constant1());
-console.log(constant1());
+// let constant1=createCounter();
+// console.log(constant1());
+// console.log(constant1());
+// console.log(constant1());
 
 
 // Array Transformation:
-
 // Write a function mapToLengths that takes an array of strings and returns a new array containing the lengths of those strings.
+let mapToLengths = (array) =>{
+    let newArray=[]
+    for(let each in array){
+        newArray.push(array[each].length);
+    }
+    console.log(newArray);
+}
+mapToLengths(["raki","ramu","keerthi"])
+
 // Object Comparison:
 
 // Write a function areObjectsEqual that takes two objects and returns true if they have the same properties and values, otherwise false.
