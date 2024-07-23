@@ -21,3 +21,17 @@ let factorial = (n) =>{
 
 }
 // console.log(factorial(3));
+
+let combineObjects= (a,b) =>{
+    return Object.assign(a,b);
+}
+a={
+    a:"rakesh",
+    b:"raki"
+}
+
+b={
+    b:"keerthi",
+    d:"ramudu"
+}
+console.log(combineObjects(a,b));
