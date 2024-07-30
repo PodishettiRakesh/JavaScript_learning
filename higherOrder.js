@@ -2,7 +2,7 @@
 
 
 //  Simple iteration with single parameter
-const numbers=[1,2,3,4,5,6,7,8,9];
+// const numbers=[1,2,3,4,5,6,7,8,9];
 
 // numbers.forEach(number =>{
 //     console.log(number);
@@ -35,17 +35,28 @@ const numbers=[1,2,3,4,5,6,7,8,9];
 //     console.log(`${num} at positin ${ind}   Array: ${[array.join(" @ ")]}`);
 // })
 
-const students = [
-    {name:'Rakesh', score:70},
-    {name:'Ramudu', score:90},
-    {name:'Keerthana', score:95},
-    {name:'keerthi', score:60}
-]
+// const students = [
+//     {name:'Rakesh', score:70},
+//     {name:'Ramudu', score:90},
+//     {name:'Keerthana', score:95},
+//     {name:'keerthi', score:60}
+// ]
 
-students.forEach(student=>{
-    student.passed=student.score>=70;
-})
+// students.forEach(student=>{
+//     student.passed=student.score>=70;
+// })
 
-students.forEach(student=>{
-    console.log(student.passed);
-})
+// students.forEach(student=>{
+//     console.log(student.passed);
+// })
+
+
+
+// Filter Method
+// const numbers=[1,2,3,4,5,6,7,8,9];
+// let evens=numbers.filter(num=> num%2===0);
+// console.log(evens);
+
+const words=["eraki", "raki", "RAKESH", "keerthi"];
+const longWords=words.filter(word=> word.length>4);
+console.log(longWords);
