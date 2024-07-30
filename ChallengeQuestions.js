@@ -67,8 +67,13 @@ let mapToLengths = (array) =>{
 mapToLengths(["raki","ramu","keerthi"])
 
 // Object Comparison:
-
 // Write a function areObjectsEqual that takes two objects and returns true if they have the same properties and values, otherwise false.
+function areObjectsEqual(a,b){
+    if(a!= object || b!= object){
+        return a===b ? true:false;
+    }else
+}
+
 // Array Sorting:
 
 // Write a function sortNumbers that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
