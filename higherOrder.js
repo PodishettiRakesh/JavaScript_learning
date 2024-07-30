@@ -57,6 +57,18 @@
 // let evens=numbers.filter(num=> num%2===0);
 // console.log(evens);
 
-const words=["eraki", "raki", "RAKESH", "keerthi"];
-const longWords=words.filter(word=> word.length>4);
-console.log(longWords);
+// const words=["eraki", "raki", "RAKESH", "keerthi"];
+// const longWords=words.filter(word=> word.length>4);
+// console.log(longWords);
+
+const employees = [
+    { name: "Alice", department: "Engineering", yearsOfExperience: 5 },
+    { name: "Bob", department: "Marketing", yearsOfExperience: 2 },
+    { name: "Charlie", department: "Engineering", yearsOfExperience: 7 },
+    { name: "David", department: "HR", yearsOfExperience: 3 },
+];
+const emp = employees.filter(emply=> emply.department=="Engineering" && emply.yearsOfExperience> 4);
+emp.forEach(em=>{
+    console.log(em.name);
+})
+// console.log(emp);
