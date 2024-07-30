@@ -88,6 +88,25 @@
 // console.log(names);
 // // Output: ["Alice", "Bob", "Charlie"]
 
-const names=["raki","keerthi","keerthana"];
-const newNames=names.map(name=>name.charAt(0).toUpperCase()+ name.slice(1));
-console.log(newNames);
+// const names=["raki","keerthi","keerthana"];
+// const newNames=names.map(name=>name.charAt(0).toUpperCase()+ name.slice(1));
+// console.log(newNames);
+
+
+// REDUCE METHOD
+// const numbers = [1,2,3,4,6];
+// const sum=numbers.reduce((value,current)=>{
+//     return value+=current;
+// })
+// console.log(sum);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const sum = numbers.reduce((acc, num) => acc + num);
+
+// console.log(sum);
+
+const words = ["hello", "world", "this", "is", "reduce"];
+const sentence = words.reduce((acc, word) => acc + " " + word, "");
+
+console.log(sentence);
+
