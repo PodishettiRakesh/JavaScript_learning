@@ -74,7 +74,17 @@
 // // console.log(emp);
 
 
-const numbers=[1,2,3,4,5];
+// const numbers=[1,2,3,4,5];
 
-let squaresOfNumbers=numbers.map(num=> num*num);
-console.log(squaresOfNumbers);
+// let squaresOfNumbers=numbers.map(num=> num*num);
+// console.log(squaresOfNumbers);
+
+const users = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 },
+];
+const names=users.map(user=> user.name);
+
+console.log(names);
+// Output: ["Alice", "Bob", "Charlie"]
