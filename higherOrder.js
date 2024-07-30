@@ -31,6 +31,21 @@ const numbers=[1,2,3,4,5,6,7,8,9];
 // })
 // console.log(`even number count${evenCount} and odd count ${oddCount}`);
 
-numbers.forEach((num, ind, array)=>{
-    console.log(`${num} at positin ${ind}   Array: ${[array.join(" @ ")]}`);
+// numbers.forEach((num, ind, array)=>{
+//     console.log(`${num} at positin ${ind}   Array: ${[array.join(" @ ")]}`);
+// })
+
+const students = [
+    {name:'Rakesh', score:70},
+    {name:'Ramudu', score:90},
+    {name:'Keerthana', score:95},
+    {name:'keerthi', score:60}
+]
+
+students.forEach(student=>{
+    student.passed=student.score>=70;
+})
+
+students.forEach(student=>{
+    console.log(student.passed);
 })
