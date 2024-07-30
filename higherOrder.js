@@ -61,14 +61,20 @@
 // const longWords=words.filter(word=> word.length>4);
 // console.log(longWords);
 
-const employees = [
-    { name: "Alice", department: "Engineering", yearsOfExperience: 5 },
-    { name: "Bob", department: "Marketing", yearsOfExperience: 2 },
-    { name: "Charlie", department: "Engineering", yearsOfExperience: 7 },
-    { name: "David", department: "HR", yearsOfExperience: 3 },
-];
-const emp = employees.filter(emply=> emply.department=="Engineering" && emply.yearsOfExperience> 4);
-emp.forEach(em=>{
-    console.log(em.name);
-})
-// console.log(emp);
+// const employees = [
+//     { name: "Alice", department: "Engineering", yearsOfExperience: 5 },
+//     { name: "Bob", department: "Marketing", yearsOfExperience: 2 },
+//     { name: "Charlie", department: "Engineering", yearsOfExperience: 7 },
+//     { name: "David", department: "HR", yearsOfExperience: 3 },
+// ];
+// const emp = employees.filter(emply=> emply.department=="Engineering" && emply.yearsOfExperience> 4);
+// emp.forEach(em=>{
+//     console.log(em.name);
+// })
+// // console.log(emp);
+
+
+const numbers=[1,2,3,4,5];
+
+let squaresOfNumbers=numbers.map(num=> num*num);
+console.log(squaresOfNumbers);
